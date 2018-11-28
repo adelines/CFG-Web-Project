@@ -1,0 +1,81 @@
+.custom {
+  cursor: url("https://banner2.kisspng.com/20180705/gpt/kisspng-rail-transport-train-computer-icons-train-station-icon-5b3ee402a100b4.1493746315308482586595.jpg"), auto;
+}body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: #008080;}
+div {
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  margin: 20px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #0000a0;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #0000a0;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+first{
+background: cover;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+
+.first{
+  background-image: url("https://s-ec.bstatic.com/images/hotel/max1024x768/151/151769321.jpg");
+}
+.second{
+  background-image: url("https://static1.squarespace.com/static/542036ade4b02579387899a0/t/5a04a2f7e2c483c41f659b54/1510340689188/A+wide+avenue+in+Hyde+Park");
+}
+.third{
+  background-image: url("https://static.inspiremore.com/wp-content/uploads/2016/11/11042353/covent-garden.jpg");
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
