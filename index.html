@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    body {
+      text-align: center;
+      background: url('https://media0.giphy.com/media/tKX6FNU9UGwF2/giphy.gif?cid=3640f6095bfee775746f4432672e9351');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+      font-size: 30px;
+
+    }
+    img{
+  margin: 40px 0px 0px 0px;
+  border:7px solid white;
+  border-radius: 20px;
+}
+    li {
+      display: inline;
+      padding: 30px 30px 30px 30px;
+    }
+    article {
+
+      padding: 20px;
+      margin: 0 auto;
+      font-size: 40px;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+<img src="C:/Users/User/Desktop/Code first girls stuff/Capture.jpg">
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Central Line</a></li>
+      <li><a href="#">Victoria Line</a></li>
+      <li><a href="#">Picadilly</a></li>
+      <li><a href="#">Others</a></li>
+    </ul>
+  </header>
+  <article>
+    <p>Make the most of your time in London and see all the hidden gems the tube has to explore. All you have to is pick a line and start your adventure!</p>
+    <button>Like</button>
+  </article>
+
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
