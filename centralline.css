@@ -24,9 +24,17 @@ h2 {
   margin: 0px 0 70px 0;
 }
 
-ul{color: pink
+li {
+  display: inline;
+  padding: 1px;
 }
-
+ul {
+  padding: 10px;
+  background: red;
+  font-size: 30px;
+  margin: 0;
+  color: pink;
+}
 
 p {
   color: rgba(255,255,255,1);

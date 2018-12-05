@@ -41,6 +41,16 @@ p {
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
 }
+li {
+  display: inline;
+  padding: 1px;
+}
+ul {
+  padding: 10px;
+  background: blue;
+  font-size: 30px;
+  margin: 0;
+}
 first{
 background: cover;
 }
